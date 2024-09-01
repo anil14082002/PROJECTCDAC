@@ -1,0 +1,76 @@
+/* src/components/DoctorForm.css */
+.doctor-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.doctor-form-heading {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.doctor-form {
+    width: 100%;
+    max-width: 497px;
+    background: #fff;
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.doctor-form-group {
+    margin-bottom: 15px;
+}
+
+.doctor-form-label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.doctor-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.doctor-submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.doctor-submit-button:hover {
+    background-color: #0056b3;
+}
+
+.doctor-form-footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.doctor-form-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.doctor-form-footer a:hover {
+    text-decoration: underline;
+}

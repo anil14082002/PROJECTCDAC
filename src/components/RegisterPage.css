@@ -1,0 +1,116 @@
+/* src/components/RegisterPage.css */
+
+.register-page {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/path/to/your/background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.register-page h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 579px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: -236px;
+}
+
+.register-page form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+   
+}
+.reg{
+    margin-left: 100px;
+}
+
+
+.register-page form > div {
+    margin-bottom: 15px;
+}
+
+.register-page label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.register-page input[type="text"],
+.register-page input[type="email"],
+.register-page input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border 0.3s;
+}
+
+.register-page input[type="text"]:focus,
+.register-page input[type="email"]:focus,
+.register-page input[type="password"]:focus {
+    border-color: #3b5998;
+    outline: none;
+}
+
+.register-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3b5998;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.register-button:hover {
+    background-color: #314e86;
+}
+
+.login-redirect {
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-redirect p {
+    margin-top: 526px;
+    margin-bottom: 3rem;
+    margin-left: -391px;
+}
+
+.login-redirect a {
+    color: #3b5998;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-redirect a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .register-page form {
+        width: 100%;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+/* src/components/DoctorDashboard.css */
+.doctor-dashboard-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.doctor-dashboard-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.health-details-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.health-details-button:hover {
+    background-color: #0056b3;
+}

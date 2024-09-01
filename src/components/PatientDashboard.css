@@ -1,0 +1,26 @@
+/* src/components/PatientDashboard.css */
+
+.patient-dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.health-card-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.health-card-info {
+    font-size: 18px;
+}
+
+.health-card-info p {
+    margin: 5px 0;
+}

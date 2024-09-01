@@ -1,0 +1,103 @@
+/* src/components/LoginPage.css */
+
+.login-page {
+	background-image: url('../assests/HomePageBackground.jpg');
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-page h2 {
+	text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -330px;
+    margin-right: -212px;
+}
+
+.login-page form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.login-page form > div {
+	
+    margin-bottom: 15px;
+}
+
+.login-page label {
+	
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.login-page input[type="email"],
+.login-page input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border 0.3s;
+}
+
+.login-page input[type="email"]:focus,
+.login-page input[type="password"]:focus {
+    border-color: #3b5998;
+    outline: none;
+}
+
+.login-page button[type="submit"] {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3b5998;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-page button[type="submit"]:hover {
+    background-color: #314e86;
+}
+
+.login-page p {
+	text-align: center;
+    color: #666;
+    margin-top: 351px;
+    font-size: 14px;
+    margin-left: -283px;
+}
+
+.login-page p a {
+    color: #3b5998;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-page p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .login-page form {
+        width: 100%;
+        padding: 20px;
+    }
+}
